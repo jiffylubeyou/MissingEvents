@@ -1,0 +1,20 @@
+These are GA4 events in GTM that aren't in Big Query (at least didn't happen in the date range of the query)
+{'login', 'select_item'}
+
+Here are all the parameters that were found in GTM events but not anywhere in Big Query
+
+For event 'ip_returned':
+{'{{Constant - Parameter Name - ip_address}}'}
+
+For event 'kenny_test':
+{'kenny parameter2', 'kenny_parameter1'}
+
+For event 'add_payment_info':
+{'page'}
+
+For event 'gift_card_click':
+{'{{Constant - Parameter Name - gift_card_click_type}}'}
+
+For event 'remove_from_cart':
+{'page'}
+

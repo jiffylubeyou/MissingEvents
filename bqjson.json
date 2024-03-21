@@ -1,0 +1,98 @@
+[{
+  "event_name": "user_engagement",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "engaged_session_event", "engagement_time_msec", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gtm_container_id", "ignore_referrer", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "os_update",
+  "keys": ["engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number", "previous_os_version"]
+}, {
+  "event_name": "notification_open",
+  "keys": ["engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number"]
+}, {
+  "event_name": "first_open",
+  "keys": ["engaged_session_event", "engagement_time_msec", "firebase_conversion", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "previous_first_open_count", "system_app", "system_app_update", "update_with_analytics"]
+}, {
+  "event_name": "app_update",
+  "keys": ["engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number", "previous_app_version"]
+}, {
+  "event_name": "page_view",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "engaged_session_event", "engagement_time_msec", "entrances", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gtm_container_id", "ignore_referrer", "medium", "page", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "scroll",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gtm_container_id", "ignore_referrer", "medium", "page_location", "page_referrer", "page_title", "percent_scrolled", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "ip_returned",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gtm_container_id", "ignore_referrer", "ip_address", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "click_out",
+  "keys": ["Action", "Click Text", "batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gtm_container_id", "ignore_referrer", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "click",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gtm_container_id", "ignore_referrer", "link_classes", "link_domain", "link_url", "medium", "outbound", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "session_start",
+  "keys": ["Action", "Click Text", "batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "currency", "engaged_session_event", "file_extension", "file_name", "firebase_conversion", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gift_card_click_type", "gtm_container_id", "ignore_referrer", "ip_address", "link_classes", "link_domain", "link_text", "link_url", "list_item_id", "list_item_name", "medium", "outbound", "page", "page_location", "page_referrer", "page_title", "percent_scrolled", "session_engaged", "source", "tax", "term", "transaction_id", "user_agent", "value"]
+}, {
+  "event_name": "file_download",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "file_extension", "file_name", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "link_text", "link_url", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "view_item_list",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "list_item_id", "list_item_name", "medium", "page", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "view_item",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "currency", "engaged_session_event", "engagement_time_msec", "firebase_conversion", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "page", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent", "value"]
+}, {
+  "event_name": "add_to_cart",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "currency", "engaged_session_event", "engagement_time_msec", "firebase_conversion", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "page", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent", "value"]
+}, {
+  "event_name": "view_cart",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "currency", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "page", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent", "value"]
+}, {
+  "event_name": "begin_checkout",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "coupon", "currency", "engaged_session_event", "engagement_time_msec", "firebase_conversion", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "page", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent", "value"]
+}, {
+  "event_name": "donation_request",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "purchase",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "checkout_type", "client_timestamp_millis", "container_version", "coupon", "currency", "engaged_session_event", "engagement_time_msec", "firebase_conversion", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "order_type", "page_location", "page_referrer", "page_title", "session_engaged", "shipping", "source", "tax", "term", "transaction_id", "user_agent", "value"]
+}, {
+  "event_name": "notification_foreground",
+  "keys": ["engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number"]
+}, {
+  "event_name": "ads_conversion_Sign_Up_1",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "gift_card_click",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gift_card_click_type", "gtm_container_id", "ignore_referrer", "medium", "page_location", "page_referrer", "page_title", "session_engaged", "source", "term", "user_agent"]
+}, {
+  "event_name": "catering_services_request",
+  "keys": ["batch_ordering_id", "batch_page_id", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "ignore_referrer", "page_location", "page_referrer", "page_title", "session_engaged", "user_agent"]
+}, {
+  "event_name": "view_search_results",
+  "keys": ["batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "engaged_session_event", "engagement_time_msec", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gtm_container_id", "medium", "page_location", "page_referrer", "page_title", "search_term", "session_engaged", "source", "term", "unique_search_term", "user_agent"]
+}, {
+  "event_name": "screen_view",
+  "keys": ["engaged_session_event", "engagement_time_msec", "entrances", "firebase_event_origin", "firebase_previous_class", "firebase_previous_id", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number"]
+}, {
+  "event_name": "firebase_campaign",
+  "keys": ["campaign", "campaign_info_source", "click_timestamp", "engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number", "medium", "source", "term"]
+}, {
+  "event_name": "first_visit",
+  "keys": ["Action", "Click Text", "batch_ordering_id", "batch_page_id", "campaign", "client_timestamp_millis", "container_version", "content", "currency", "engaged_session_event", "ga4_measurement_id", "ga_session_id", "ga_session_number", "gclid", "gift_card_click_type", "gtm_container_id", "ignore_referrer", "ip_address", "list_item_id", "list_item_name", "medium", "page", "page_location", "page_referrer", "page_title", "percent_scrolled", "session_engaged", "source", "term", "user_agent", "value"]
+}, {
+  "event_name": "app_clear_data",
+  "keys": ["engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number"]
+}, {
+  "event_name": "app_remove",
+  "keys": ["engaged_session_event", "firebase_event_origin", "firebase_screen_class", "firebase_screen_id", "ga_session_id", "ga_session_number"]
+}, {
+  "event_name": "remove_from_cart",
+  "keys": ["currency"]
+}, {
+  "event_name": "add_payment_info",
+  "keys": ["coupon", "currency", "payment_type"]
+}, {
+  "event_name": "kenny_test",
+  "keys": ["coupon", "currency", "payment_type"]
+}
+]
