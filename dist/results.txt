@@ -1,2 +1,5 @@
-These are events in Big Query that aren't in GTM as GA4 events (at least didn't happen in the date range of the query)
-{'app_update', 'notification_foreground', 'view_search_results', 'file_download', 'ads_conversion_Sign_Up_1', 'notification_open', 'session_start', 'app_remove', 'firebase_campaign', 'first_open', 'os_update', 'app_clear_data', 'scroll', 'first_visit', 'click', 'screen_view', 'user_engagement'}
+These are GA4 events in GTM that aren't in Big Query (at least didn't happen in the date range of the query)
+{'select_item', 'login', 'kenny_test'}
+
+Here are all the parameters that were found in GTM events but not anywhere in Big Query
+
